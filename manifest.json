@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Filler",
+  "version": "1.0",
+  "description": "Remplit automatiquement certains champs sur des sites web.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "public/assets/logo.png",
+      "48": "public/assets/logo.png",
+      "128": "public/assets/logo.png"
+    }
+  },
+  "icons": {
+    "16": "assets/favicon.ico",
+    "48": "assets/favicon.ico",
+    "128": "assets/favicon.ico"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

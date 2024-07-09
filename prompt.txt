@@ -1,0 +1,98 @@
+"Extract the following details from the lease agreement:
+
+**General Information:**
+- Status: (Pending, Approved, etc.)
+- Total number of tenants: 
+- Apartment management type: (Individual, Professional)
+- Agency mentioned in lease: (Yes, No)
+
+**Landlord Information:**
+- Landlord type: (Individual, Organization)
+- Organization Name: 
+- Organization Email: 
+- Organization Address:
+  - Street number: 
+  - Street: 
+  - City: 
+  - State: 
+  - Zip code: 
+  - Country: 
+  - Address supplement: 
+
+**Legal Representative Information:**
+- Title: (Mister, Miss)
+- First name: 
+- Last name: 
+- Phone number: 
+- Email: 
+
+**Intermediary Information:**
+- Name of intermediary: 
+- Intermediary type: (Real Estate Agency, Residence)
+- Contact email: 
+- Phone number: 
+
+**Agent Information:**
+- Title: (Mister, Miss)
+- First name: 
+- Last name: 
+- Agency manager: (Yes, No)
+- Contact email: 
+- Phone number: 
+
+**Lease Information:**
+- Lease Law: 
+- Lease type: (Principal, Secondary)
+- Furnished: (Yes, No)
+- Residence: 
+- Address:
+  - Street number: 
+  - Street: 
+  - City: 
+  - State: 
+  - Zip code: 
+  - Country: 
+  - Address supplement: 
+
+**Apartment Information:**
+- Apartment Category: (Apartment, Studio, Residence, House, Homestay)
+- Apartment Type: (T1, T2, T3, T4, T5)
+- Area (in m²):
+
+**Lease Duration:**
+- Start date: 
+- End date: 
+- Signature Date: 
+- Guarantee Start Date: 
+- Rent due date: 
+- Lease duration (in months): 
+- Leave notice (in months): 
+
+**Financial Information:**
+- Monthly rent (HC): 
+- Monthly charges: 
+- Deposit: 
+
+**Lease Termination:**
+- Termination date: 
+- Termination motive: 
+
+**Resolutory Clause:**
+- Resolutory clause: (Yes, No, I don’t know)
+
+**Pricing Information:**
+- Pricing Monthly Rent: 
+- Pricing Coverage Duration: (in months)
+- Total number of Garantme tenants: 
+- Promo code: 
+- Automatic renewal: (Yes, No)
+- Rent Guarantee Product: 
+- Garantme applied rate: 
+- Sub-total: 
+- Discount: 
+- Prescriber Discount: 
+- User Balance Discount: 
+- Total: 
+
+Provide the information in a structured format.
+"

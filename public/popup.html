@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Success Bot Contract</title>
+    <link rel="stylesheet" href="assets/popup.css" />
+  </head>
+  <body>
+    <img src="assets/logo.png" alt="Logo" class="logo" id="logo" />
+    <input
+      type="text"
+      id="licenceInput"
+      placeholder="Entrez la clé de licence"
+    />
+
+    <h2>Success Bot Contract</h2>
+
+    <div id="drop_zone" class="disabled">Glissez-déposez un fichier ici</div>
+    <input
+      type="file"
+      id="fileInput"
+      accept=".pdf,.doc,.docx,.png,.jpg,.jpeg"
+      disabled
+    />
+    <input
+      type="text"
+      id="fileUrl"
+      placeholder="Entrez un lien Hubspot"
+      disabled
+    />
+    <button id="uploadButton" disabled>Analyser le Bail</button>
+    <button id="fillButton" disabled>Remplir le Contrat</button>
+    <div class="loader" id="loader"></div>
+    <div class="error" id="error"></div>
+    <div class="info-text">Compatible avec PDF, Word, et Images</div>
+    <div id="result" class="info-text"></div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalText"></p>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
